@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>to-do app</title>
+</head>
+<body>
+    <h1 class="logo-ish"> todos 
+        <span class="icon"> <i class="fa-solid fa-clipboard-check"> </i> </span>
+    </h1>
+    <p class="logoP"> Plan better, build better. </p>
+    <div class="container">
+        <div class="header">
+             <h1> Hey there! <span class="wave"> 👋 </span></h1>
+             <p> Manage your schedule and be on track. </p>
+        </div>
+         <form id="form">
+             <div class="inputPlacement">
+             <input type="text" id="input" class="input" placeholder="what needs to be done?" autocomplete="off"/>
+             <button class="addBtn" id="addBtn"> <i class="fa-light fa-plus"></i> </i> </button>
+             </div>
+             <ul class="todos" id="todos">
+
+             </ul>
+             <div class="small">
+             <small> Left click to mark a complete todo. </small> </br>
+             <small> Right click to delete a todo. </small>
+            </div>
+        </form>
+    </div>
+ </div>
+</body>
+<script src="script.js"></script>
+</html> 
